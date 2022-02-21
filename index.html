@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./index.js" defer></script>
+    <title>NumberGuess</title>
+</head>
+<body>
+    <div class="container">
+        <h1 id="h1"><span id="oor"></span>Guess The Number (<span id="h1a">1</span> - <span id="h1b">100</span>)</h1>
+        <input type="number" name="number" id="number" max="100" min="1">
+        <button type="submit">Guess The Number</button>
+        <p>Number of Guesses: <span id="p">0</span></p>
+        <button onClick="window.location.reload();">Refresh Page</button>
+    </div>
+</body>
+</html>

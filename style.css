@@ -1,0 +1,11 @@
+body {
+    background-color: turquoise;
+}
+
+.container {
+    text-align: center;
+}
+
+#number {
+    width: 145px;
+}
